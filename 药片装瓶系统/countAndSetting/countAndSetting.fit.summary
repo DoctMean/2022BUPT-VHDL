@@ -1,0 +1,9 @@
+Fitter Status : Successful - Mon Jun 03 19:26:27 2024
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : countAndSetting
+Top-level Entity Name : countAndSetting
+Family : MAX7000S
+Device : EPM7128SLC84-15
+Timing Models : Final
+Total macrocells : 120 / 128 ( 94 % )
+Total pins : 38 / 68 ( 56 % )

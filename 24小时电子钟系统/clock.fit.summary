@@ -1,0 +1,9 @@
+Fitter Status : Successful - Tue Jan 01 03:52:47 2013
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : clock
+Top-level Entity Name : clock
+Family : MAX7000S
+Device : EPM7128SLC84-15
+Timing Models : Final
+Total macrocells : 120 / 128 ( 94 % )
+Total pins : 51 / 68 ( 75 % )

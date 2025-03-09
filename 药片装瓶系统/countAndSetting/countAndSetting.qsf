@@ -1,0 +1,95 @@
+# -------------------------------------------------------------------------- #
+#
+# Copyright (C) 1991-2009 Altera Corporation
+# Your use of Altera Corporation's design tools, logic functions 
+# and other software and tools, and its AMPP partner logic 
+# functions, and any output files from any of the foregoing 
+# (including device programming or simulation files), and any 
+# associated documentation or information are expressly subject 
+# to the terms and conditions of the Altera Program License 
+# Subscription Agreement, Altera MegaCore Function License 
+# Agreement, or other applicable license agreement, including, 
+# without limitation, that your use is for the sole purpose of 
+# programming logic devices manufactured by Altera and sold by 
+# Altera or its authorized distributors.  Please refer to the 
+# applicable agreement for further details.
+#
+# -------------------------------------------------------------------------- #
+#
+# Quartus II 64-Bit
+# Version 9.1 Build 222 10/21/2009 SJ Full Version
+# Date created = 12:51:46  March 21, 2024
+#
+# -------------------------------------------------------------------------- #
+#
+# Notes:
+#
+# 1) The default values for assignments are stored in the file:
+#		countAndSetting_assignment_defaults.qdf
+#    If this file doesn't exist, see file:
+#		assignment_defaults.qdf
+#
+# 2) Altera recommends that you do not modify this file. This
+#    file is updated automatically by the Quartus II software
+#    and any changes you make may be lost or overwritten.
+#
+# -------------------------------------------------------------------------- #
+
+
+set_global_assignment -name FAMILY MAX7000S
+set_global_assignment -name DEVICE "EPM7128SLC84-15"
+set_global_assignment -name TOP_LEVEL_ENTITY countAndSetting
+set_global_assignment -name ORIGINAL_QUARTUS_VERSION 9.1
+set_global_assignment -name PROJECT_CREATION_TIME_DATE "12:51:46  MARCH 21, 2024"
+set_global_assignment -name LAST_QUARTUS_VERSION 9.1
+set_global_assignment -name USE_GENERATED_PHYSICAL_CONSTRAINTS OFF -section_id eda_blast_fpga
+set_global_assignment -name MAX7000_OPTIMIZATION_TECHNIQUE BALANCED
+set_global_assignment -name MIN_CORE_JUNCTION_TEMP 0
+set_global_assignment -name MAX_CORE_JUNCTION_TEMP 85
+set_global_assignment -name VHDL_FILE countAndSetting.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE countAndSetting.vwf
+set_global_assignment -name SIMULATION_MODE FUNCTIONAL
+set_global_assignment -name VHDL_FILE Vhdl2.vhd
+set_global_assignment -name VECTOR_WAVEFORM_FILE Waveform1.vwf
+set_global_assignment -name INCREMENTAL_VECTOR_INPUT_SOURCE Waveform1.vwf
+set_global_assignment -name MAX7000_DEVICE_IO_STANDARD TTL
+set_location_assignment PIN_58 -to clk
+set_location_assignment PIN_63 -to reset
+set_location_assignment PIN_64 -to set
+set_global_assignment -name MISC_FILE "D:/quartus/quartus/countAndSetting/countAndSetting.dpf"
+set_global_assignment -name VHDL_FILE Adder.vhd
+set_location_assignment PIN_44 -to print_light_one[6]
+set_location_assignment PIN_45 -to print_light_one[5]
+set_location_assignment PIN_46 -to print_light_one[4]
+set_location_assignment PIN_48 -to print_light_one[3]
+set_location_assignment PIN_49 -to print_light_one[2]
+set_location_assignment PIN_50 -to print_light_one[1]
+set_location_assignment PIN_51 -to print_light_one[0]
+set_global_assignment -name MISC_FILE "C:/Users/Administrator/Desktop/countAndSetting/countAndSetting.dpf"
+set_global_assignment -name MISC_FILE "D:/andy_liu/课程/大二/数电课设/countAndSetting/countAndSetting.dpf"
+set_location_assignment PIN_18 -to show[7]
+set_location_assignment PIN_17 -to show[6]
+set_location_assignment PIN_36 -to show[5]
+set_location_assignment PIN_35 -to show[4]
+set_location_assignment PIN_41 -to show[3]
+set_location_assignment PIN_40 -to show[2]
+set_location_assignment PIN_39 -to show[1]
+set_location_assignment PIN_37 -to show[0]
+set_location_assignment PIN_65 -to show_switch[1]
+set_location_assignment PIN_67 -to show_switch[0]
+set_location_assignment PIN_68 -to input[11]
+set_location_assignment PIN_69 -to input[10]
+set_location_assignment PIN_70 -to input[9]
+set_location_assignment PIN_73 -to input[8]
+set_location_assignment PIN_74 -to input[7]
+set_location_assignment PIN_75 -to input[6]
+set_location_assignment PIN_76 -to input[5]
+set_location_assignment PIN_77 -to input[4]
+set_location_assignment PIN_79 -to input[3]
+set_location_assignment PIN_80 -to input[2]
+set_location_assignment PIN_81 -to input[1]
+set_location_assignment PIN_54 -to input[0]
+set_global_assignment -name MISC_FILE "D:/andy_liu/课程/大二/数电课设/countAndSetting (2)/countAndSetting/countAndSetting.dpf"
+set_location_assignment PIN_61 -to pause
+set_global_assignment -name MISC_FILE "C:/Users/Administrator/Desktop/countAndSetting (2)/countAndSetting/countAndSetting.dpf"
+set_location_assignment PIN_60 -to start

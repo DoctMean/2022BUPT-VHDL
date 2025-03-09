@@ -1,0 +1,76 @@
+--------------------------------------------------------------------------------------
+Timing Analyzer Summary
+--------------------------------------------------------------------------------------
+
+Type           : Worst-case tsu
+Slack          : N/A
+Required Time  : None
+Actual Time    : 5.000 ns
+From           : pause
+To             : second:u5|temp_cdf
+From Clock     : --
+To Clock       : clk_1
+Failed Paths   : 0
+
+Type           : Worst-case tco
+Slack          : N/A
+Required Time  : None
+Actual Time    : 59.000 ns
+From           : hour:u1|lpm_counter:tmp_low_rtl_0|dffs[1]
+To             : qout
+From Clock     : clk_1
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case tpd
+Slack          : N/A
+Required Time  : None
+Actual Time    : 49.000 ns
+From           : alarm_hour
+To             : qout
+From Clock     : --
+To Clock       : --
+Failed Paths   : 0
+
+Type           : Worst-case th
+Slack          : N/A
+Required Time  : None
+Actual Time    : 22.000 ns
+From           : clr
+To             : hour:u1|lpm_counter:tmp_low_rtl_0|dffs[1]
+From Clock     : --
+To Clock       : clk_1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'clk_1'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 71.43 MHz ( period = 14.000 ns )
+From           : hour:u1|lpm_counter:tmp_low_rtl_0|dffs[3]
+To             : hour:u1|lpm_counter:tmp_low_rtl_0|dffs[1]
+From Clock     : clk_1
+To Clock       : clk_1
+Failed Paths   : 0
+
+Type           : Clock Setup: 'qd'
+Slack          : N/A
+Required Time  : None
+Actual Time    : 76.92 MHz ( period = 13.000 ns )
+From           : count_down
+To             : count_down
+From Clock     : qd
+To Clock       : qd
+Failed Paths   : 0
+
+Type           : Total number of failed paths
+Slack          : 
+Required Time  : 
+Actual Time    : 
+From           : 
+To             : 
+From Clock     : 
+To Clock       : 
+Failed Paths   : 0
+
+--------------------------------------------------------------------------------------
+
